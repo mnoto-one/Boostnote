@@ -95,6 +95,16 @@ http://127.0.0.1:8000
 ### 💬 Link
 [Link Address](https://docs.djangoproject.com/en/3.0/topics/auth/default/)
 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+### 💬 Note
+📝 Lorem Ipsum is simply dummy tex
+
+📝 Lorem Ipsum is simply dummy tex
+
+📝 Lorem Ipsum is simply dummy tex
+
+📝 Lorem Ipsum is simply dummy tex
+
 
 # ⚠️ Warning
 ### 💬 Result
