@@ -65,7 +65,7 @@ Copy
 chown -R nobody:nobody /var/www/html/demo
 ```
 
-📌 Centos:
+📌 ubuntu - debian:
 
 🔰 Terminal
 ```sh
@@ -137,4 +137,4 @@ pip install pillow
 LS_PYTHONBIN=/var/www/html/bin/python
 
 
-![img](http://127.0.0.1:5555/LiteSpeed/2021/12.png)
+![img](http://127.0.0.1:5555/LiteSpeed/2021/12.jpg)
