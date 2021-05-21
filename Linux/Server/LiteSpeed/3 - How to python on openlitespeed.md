@@ -5,6 +5,9 @@ tags: []
 
 ### 💬 Python WSGI Apps with LSAPI
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+[Link web openlitespeed python](https://openlitespeed.org/kb/python-wsgi-applications/)
+
 ### 💬 Install Python3 Library
 
 📌 1 - CentOS
@@ -37,9 +40,9 @@ apt-get install python3-dev
 💬 The easiest and fastest way to run web applications with LiteSpeed Web Server is to install and compile [wsgi-lsapi.](https://www.litespeedtech.com/open-source/litespeed-sapi/download)
 
 ```sh
-curl -O http://www.litespeedtech.com/packages/lsapi/wsgi-lsapi-1.6.tgz
-tar xf wsgi-lsapi-1.6.tgz
-cd wsgi-lsapi-1.6
+curl -O https://www.litespeedtech.com/packages/lsapi/wsgi-lsapi-1.9.tgz
+tar xf wsgi-lsapi-1.9.tgz
+cd wsgi-lsapi-1.9
 python3 ./configure.py
 make
 cp lswsgi /usr/local/lsws/fcgi-bin/

@@ -131,10 +131,49 @@ pip install pillow
 * Startup File = demo/wsgi.py
 * Environment = 
 
-
- PYTHONPATH=/var/www/html/lib/python3.8:/var/www/html/demo
-
+```
+PYTHONPATH=/var/www/html/lib/python3.8:/var/www/html/demo
 LS_PYTHONBIN=/var/www/html/bin/python
-
+or
+PYTHONPATH=/var/www/simehera/simeheraEnv/lib/python3.7:/var/www/simehera/simehera
+LS_PYTHONBIN=/var/www/simehera/simeheraEnv/bin/python
+```
 
 ![img](http://127.0.0.1:5555/LiteSpeed/2021/12.jpg)
+
+# ⚠️ Warning
+### 💬 fix load static - media
+📝 folder project django and env 1
+
+- /var
+  - websiteses
+    - mnoto
+      - mnotoweb
+      - mnotoenv
+
+📝 folder lsws 2
+
+- /usr
+  - local
+    - lsws
+      - websiteses
+
+📝 chown folders
+
+🔰 Terminal
+```sh
+chown -R nobody:nogroup /var/websiteses
+chown -R nobody:nogroup /usr/local/lsws/websiteses
+```
+
+📁 -2 settings.py
+```python
+STATIC_ROOT = '/var/websiteses/mnoto/mnotoweb/static'
+
+```
+📝 collectstatic for statics
+
+🔰 Terminal
+```sh
+python manage.py collectstatic
+```
