@@ -169,9 +169,7 @@ chown -R nobody:nogroup /usr/local/lsws/websiteses
 📁 -2 settings.py
 ```python
 STATIC_ROOT = '/var/websiteses/mnoto/mnotoweb/static'
-
 ```
-📝 collectstatic for statics
 
 🔰 Terminal
 ```sh
