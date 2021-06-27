@@ -66,16 +66,16 @@ pip freeze > requirements.txt
 ```
 #### 💬 Useful attributes on {{ field }} include:
 
-* 📌 {{ field.label }}
+- 📌 {{ field.label }}
 ```
 Description ...
 ```
 
-* 📌 {{ field.html_name }}
+- 📌 {{ field.html_name }}
 ```
 Description ...
 ```
-* 📌 {{ field.help_text }}
+- 📌 {{ field.help_text }}
 
 ```
 Description ...
